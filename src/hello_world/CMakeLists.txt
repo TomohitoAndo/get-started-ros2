@@ -21,7 +21,7 @@ endfunction()
 # talkerノードのビルド設定
 custom_executable(talker)
 custom_executable(talker_with_service)
-###custom_executable(talker_with_service_param)
+custom_executable(talker_with_service_param)
 # listenerノードのビルド設定
 custom_executable(listener)
 # client_syncノードのビルド設定
